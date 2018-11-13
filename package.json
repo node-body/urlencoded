@@ -1,0 +1,26 @@
+{
+  "name": "@body/urlencoded",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "node-body/urlencoded",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "@body/stream": "^0.1.0",
+    "append-field": "^1.0.0",
+    "get-stream": "^4.1.0",
+    "p-try": "^2.0.0"
+  },
+  "devDependencies": {
+    "api-error-handler": "^1.0.0",
+    "assert-rejects": "^1.0.0",
+    "express": "^4.16.4",
+    "got": "^9.3.2",
+    "mocha": "^5.2.0",
+    "standard": "^12.0.1"
+  }
+}
